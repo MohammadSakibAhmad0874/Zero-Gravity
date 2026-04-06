@@ -1,0 +1,259 @@
+[
+  {
+    "id": "demo-user-1",
+    "name": "Aiko Tanaka",
+    "email": "aiko@example.com",
+    "password": "$2a$10$xK8vK9Y5Z5Z5Z5Z5Z5Z5ZuZ5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5",
+    "country": "Japan",
+    "timezone": "UTC+9",
+    "bio": "Tea ceremony instructor & calligraphy artist. Love sharing Japanese culture and cooking!",
+    "skills": [
+      "Calligraphy",
+      "Cooking",
+      "Martial Arts",
+      "Photography"
+    ],
+    "languages": [
+      "Japanese",
+      "English"
+    ],
+    "interests": [
+      "Art & Music",
+      "Food & Cuisine",
+      "History & Heritage",
+      "Festivals & Traditions"
+    ],
+    "createdAt": "2026-01-15T10:00:00Z"
+  },
+  {
+    "id": "demo-user-2",
+    "name": "Carlos Rivera",
+    "email": "carlos@example.com",
+    "password": "$2a$10$xK8vK9Y5Z5Z5Z5Z5Z5Z5ZuZ5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5",
+    "country": "Brazil",
+    "timezone": "UTC-3",
+    "bio": "Musician & capoeira practitioner. Want to learn Asian martial arts and share samba!",
+    "skills": [
+      "Music",
+      "Dance",
+      "Cooking",
+      "Photography"
+    ],
+    "languages": [
+      "Portuguese",
+      "Spanish",
+      "English"
+    ],
+    "interests": [
+      "Art & Music",
+      "Sports & Fitness",
+      "Festivals & Traditions",
+      "Food & Cuisine"
+    ],
+    "createdAt": "2026-01-20T10:00:00Z"
+  },
+  {
+    "id": "demo-user-3",
+    "name": "Priya Sharma",
+    "email": "priya@example.com",
+    "password": "$2a$10$xK8vK9Y5Z5Z5Z5Z5Z5Z5ZuZ5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5",
+    "country": "India",
+    "timezone": "UTC+5:30",
+    "bio": "Yoga teacher & classical dancer. Passionate about sharing Ayurveda and Indian philosophy.",
+    "skills": [
+      "Yoga",
+      "Dance",
+      "Cooking",
+      "Painting"
+    ],
+    "languages": [
+      "Hindi",
+      "English",
+      "Sanskrit"
+    ],
+    "interests": [
+      "Spirituality",
+      "Art & Music",
+      "Food & Cuisine",
+      "History & Heritage"
+    ],
+    "createdAt": "2026-02-01T10:00:00Z"
+  },
+  {
+    "id": "demo-user-4",
+    "name": "Emma Müller",
+    "email": "emma@example.com",
+    "password": "$2a$10$xK8vK9Y5Z5Z5Z5Z5Z5Z5ZuZ5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5",
+    "country": "Germany",
+    "timezone": "UTC+1",
+    "bio": "Software engineer who loves pottery & baking. Looking to learn about East Asian art!",
+    "skills": [
+      "Coding",
+      "Pottery",
+      "Cooking",
+      "Chess"
+    ],
+    "languages": [
+      "German",
+      "English",
+      "French"
+    ],
+    "interests": [
+      "Technology",
+      "Art & Music",
+      "Architecture",
+      "Food & Cuisine"
+    ],
+    "createdAt": "2026-02-10T10:00:00Z"
+  },
+  {
+    "id": "demo-user-5",
+    "name": "Fatima Al-Hassan",
+    "email": "fatima@example.com",
+    "password": "$2a$10$xK8vK9Y5Z5Z5Z5Z5Z5Z5ZuZ5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5",
+    "country": "Morocco",
+    "timezone": "UTC+0",
+    "bio": "Writer & storyteller specializing in North African folklore. Love learning new languages!",
+    "skills": [
+      "Writing",
+      "Cooking",
+      "Calligraphy",
+      "History"
+    ],
+    "languages": [
+      "Arabic",
+      "French",
+      "English"
+    ],
+    "interests": [
+      "Literature",
+      "Folklore & Mythology",
+      "Food & Cuisine",
+      "History & Heritage"
+    ],
+    "createdAt": "2026-02-15T10:00:00Z"
+  },
+  {
+    "id": "demo-user-6",
+    "name": "Yuki Park",
+    "email": "yuki@example.com",
+    "password": "$2a$10$xK8vK9Y5Z5Z5Z5Z5Z5Z5ZuZ5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5",
+    "country": "South Korea",
+    "timezone": "UTC+9",
+    "bio": "K-pop dance instructor and aspiring filmmaker. Interested in Latin American music!",
+    "skills": [
+      "Dance",
+      "Film Making",
+      "Music",
+      "Photography"
+    ],
+    "languages": [
+      "Korean",
+      "English",
+      "Japanese"
+    ],
+    "interests": [
+      "Art & Music",
+      "Film & Cinema",
+      "Fashion",
+      "Technology"
+    ],
+    "createdAt": "2026-02-20T10:00:00Z"
+  },
+  {
+    "id": "bc64ea42-b9c2-4ba4-96bd-ddb15c4bce14",
+    "name": "Test User-adi",
+    "email": "test@culturamatch.com",
+    "password": "$2a$10$18hVbf29JRNDZFvSu3FxAOxTKI.n2EpZMlO0ipP5p.HGIBm1462o6",
+    "country": "India",
+    "timezone": "UTC+5:30",
+    "bio": "Cultural explorer looking to connect!",
+    "skills": [
+      "Music",
+      "Cooking",
+      "Photography",
+      "Coding"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "interests": [
+      "Art & Music",
+      "Food & Cuisine",
+      "Technology",
+      "Sports & Fitness"
+    ],
+    "createdAt": "2026-03-25T07:28:35.123Z"
+  },
+  {
+    "id": "bf74a780-5dfa-4f13-bb45-2242bac96796",
+    "name": "narendra modi",
+    "email": "23322147012@deshbhagatuniversity.in",
+    "password": "$2a$10$jNzBF8mFyxoixX7oTzb7/.zvZAo0QTebeuHEX.AdK1sEhLpKsSBJO",
+    "country": "milky way",
+    "timezone": "UTC+5:30",
+    "bio": "i'm immortal",
+    "skills": [
+      "Music",
+      "Coding",
+      "Pottery",
+      "Fashion Design",
+      "Mathematics",
+      "History",
+      "Woodworking",
+      "Calligraphy",
+      "Writing",
+      "Cooking",
+      "Photography",
+      "Yoga",
+      "Film Making",
+      "Knitting",
+      "Philosophy",
+      "Science",
+      "Chess",
+      "Theatre",
+      "Gardening",
+      "Dance",
+      "Painting",
+      "Martial Arts"
+    ],
+    "languages": [
+      "English",
+      "Spanish",
+      "Mandarin",
+      "Hindi",
+      "French",
+      "Korean",
+      "Japanese",
+      "Russian",
+      "Portuguese",
+      "Arabic",
+      "Swedish",
+      "Dutch",
+      "Swahili",
+      "Thai",
+      "Vietnamese",
+      "Turkish",
+      "Italian",
+      "German"
+    ],
+    "interests": [
+      "Folklore & Mythology",
+      "Architecture",
+      "Spirituality",
+      "Nature & Environment",
+      "Film & Cinema",
+      "Fashion",
+      "Festivals & Traditions",
+      "Literature",
+      "Travel",
+      "Sports & Fitness",
+      "Technology",
+      "History & Heritage",
+      "Food & Cuisine",
+      "Art & Music"
+    ],
+    "createdAt": "2026-03-27T17:04:48.920Z"
+  }
+]
