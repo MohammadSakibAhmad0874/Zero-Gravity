@@ -1,0 +1,219 @@
+/* ─── SETTINGS PAGE — Luxury Organized ─── */
+
+.settings-page {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: var(--sp-xl) var(--sp-xl) var(--sp-3xl);
+  min-height: calc(100vh - var(--navbar-h));
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-xl);
+}
+
+/* ─── Settings Layout ─── */
+.settings-layout {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-lg);
+}
+
+/* ─── Settings Card ─── */
+.settings-card {
+  padding: 0;
+  overflow: hidden;
+}
+
+.settings-card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: var(--sp-lg) var(--sp-xl);
+  border-bottom: 1px solid var(--border);
+  background: linear-gradient(145deg, rgba(248,246,241,0.6) 0%, rgba(239,233,223,0.4) 100%);
+}
+
+.settings-card-header h2 {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  letter-spacing: -0.01em;
+}
+
+.settings-card-header svg {
+  color: var(--gold-deep);
+}
+
+/* ─── Settings Rows ─── */
+.settings-rows {
+  display: flex;
+  flex-direction: column;
+}
+
+.settings-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-lg);
+  padding: var(--sp-lg) var(--sp-xl);
+  border-bottom: 1px solid rgba(214, 207, 199, 0.35);
+  transition: background var(--t-fast);
+}
+
+.settings-rows .settings-row:last-child {
+  border-bottom: none;
+}
+
+.settings-card > .settings-row {
+  padding: var(--sp-lg) var(--sp-xl);
+}
+
+.settings-row:hover {
+  background: rgba(198, 169, 105, 0.04);
+}
+
+.settings-row-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  flex: 1;
+  min-width: 0;
+}
+
+.settings-row-label {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.settings-row-desc {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  line-height: 1.45;
+}
+
+/* ─── Toggle Switch ─── */
+.settings-toggle {
+  width: 44px;
+  height: 24px;
+  border-radius: var(--r-full);
+  border: none;
+  background: rgba(198, 169, 105, 0.18);
+  border: 1.5px solid var(--border);
+  position: relative;
+  cursor: pointer;
+  transition: background var(--t-base), border-color var(--t-base);
+  flex-shrink: 0;
+}
+
+.settings-toggle.on {
+  background: var(--gradient-primary);
+  border-color: var(--gold);
+}
+
+.toggle-knob {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+  transition: transform var(--t-spring);
+}
+
+.settings-toggle.on .toggle-knob {
+  transform: translateX(20px);
+}
+
+/* ─── Theme Switcher ─── */
+.theme-switcher {
+  display: flex;
+  gap: 0.4rem;
+  background: rgba(214, 207, 199, 0.35);
+  border-radius: var(--r-xl);
+  padding: 3px;
+  border: 1px solid var(--border-card);
+}
+
+.theme-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.85rem;
+  border-radius: var(--r-lg);
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: all var(--t-base);
+}
+
+.theme-btn.active {
+  background: white;
+  color: var(--text-primary);
+  font-weight: 600;
+  box-shadow: var(--shadow-xs);
+}
+
+/* ─── Badge ─── */
+.settings-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.28rem 0.72rem;
+  background: rgba(90, 79, 69, 0.08);
+  border: 1px solid var(--border);
+  border-radius: var(--r-full);
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* ─── Danger Zone ─── */
+.settings-card-danger .settings-card-header {
+  background: rgba(184, 85, 85, 0.06);
+  border-bottom-color: rgba(184, 85, 85, 0.15);
+}
+
+.settings-card-danger .settings-card-header svg {
+  color: var(--error);
+}
+
+.settings-card-danger .settings-card-header h2 {
+  color: var(--error);
+}
+
+.danger-zone-body {
+  padding: var(--sp-sm) 0;
+}
+
+.danger-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-lg);
+  padding: var(--sp-lg) var(--sp-xl);
+}
+
+/* ─── Save Bar ─── */
+.settings-save-bar {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: var(--sp-sm);
+}
+
+/* ─── Responsive ─── */
+@media (max-width: 600px) {
+  .settings-page { padding: var(--sp-lg) var(--sp-md) var(--sp-2xl); }
+  .settings-row { flex-direction: column; align-items: flex-start; gap: var(--sp-md); }
+  .theme-switcher { width: 100%; }
+  .theme-btn { flex: 1; justify-content: center; }
+  .settings-save-bar { justify-content: stretch; }
+  .settings-save-bar .btn { width: 100%; }
+}

@@ -1,0 +1,172 @@
+/* ─── PROFILE PAGE — Luxury Elegant ─── */
+
+.profile-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: var(--sp-xl) var(--sp-xl) var(--sp-3xl);
+  min-height: calc(100vh - var(--navbar-h));
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-xl);
+}
+
+/* ─── Two-column layout ─── */
+.profile-layout {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: var(--sp-xl);
+  align-items: start;
+}
+
+/* ─── Left Card ─── */
+.profile-card {
+  position: sticky;
+  top: calc(var(--navbar-h) + var(--sp-lg));
+}
+
+.profile-banner {
+  background: linear-gradient(145deg, rgba(198,169,105,0.15) 0%, rgba(166,124,82,0.10) 100%);
+  border-radius: var(--r-xl) var(--r-xl) 0 0;
+  padding: var(--sp-2xl) var(--sp-xl) var(--sp-lg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--sp-sm);
+  border-bottom: 1px solid var(--border-card);
+}
+
+.profile-card-body {
+  padding: var(--sp-lg) var(--sp-xl) var(--sp-xl);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.6rem;
+}
+
+.profile-location {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.84rem;
+  color: var(--text-muted);
+}
+
+.profile-bio-text {
+  font-size: 0.87rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  text-align: center;
+  font-style: italic;
+  padding: var(--sp-sm) var(--sp-md);
+  background: rgba(232, 226, 216, 0.35);
+  border-radius: var(--r-lg);
+  border-left: 3px solid var(--gold);
+  text-align: left;
+  margin-top: 0.25rem;
+}
+
+.profile-section-block {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  text-align: left;
+}
+.profile-section-block h4 {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  margin-bottom: 0.2rem;
+}
+
+/* ─── Right: Sections ─── */
+.profile-sections {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-lg);
+}
+
+.profile-section-panel {
+  padding: var(--sp-xl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-md);
+}
+
+.profile-section-title {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  letter-spacing: -0.01em;
+  padding-bottom: var(--sp-md);
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 0.25rem;
+}
+
+/* ─── Form layout helpers ─── */
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--sp-md);
+}
+
+/* ─── Chips picker ─── */
+.chips-picker {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.chips-picker .tag {
+  cursor: pointer;
+  transition: all var(--t-fast);
+  user-select: none;
+}
+.chips-picker .tag:hover {
+  border-color: var(--border-hover);
+  background: rgba(198,169,105,0.10);
+}
+.chips-picker .tag-primary {
+  cursor: pointer;
+}
+
+/* ─── Edit actions ─── */
+.profile-edit-actions {
+  display: flex;
+  gap: var(--sp-md);
+  justify-content: flex-end;
+  padding-top: var(--sp-md);
+  border-top: 1px solid var(--border);
+}
+
+/* ─── Completeness bar wrapper ─── */
+.completeness-bar-wrap {
+  width: 100%;
+}
+
+/* ─── Responsive ─── */
+@media (max-width: 900px) {
+  .profile-layout {
+    grid-template-columns: 1fr;
+  }
+  .profile-card {
+    position: static;
+  }
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .profile-page { padding: var(--sp-lg) var(--sp-md) var(--sp-2xl); }
+  .profile-section-panel { padding: var(--sp-lg); }
+}
