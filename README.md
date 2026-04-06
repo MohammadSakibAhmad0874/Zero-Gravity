@@ -17,7 +17,7 @@
 
 <br>
 
-<img src="screenshots/landing_page.png" alt="DevMatch Landing Page" width="90%">
+//
 
 </div>
 
@@ -134,65 +134,6 @@ Unlike binary matching (you either know React or you don't), Fuzzy Logic capture
 User feedback trains the model. If users keep rejecting certain match patterns, the network learns to deprioritize them. **The platform gets smarter with every hackathon.**
 
 ---
-
-## 📸 Screenshots
-
-### Landing Page
-<div align="center">
-<img src="screenshots/landing_page.png" alt="Landing Page" width="90%">
-</div>
-
----
-
-### Developer Profile Onboarding (3-Step Flow)
-<div align="center">
-<table>
-  <tr>
-    <td align="center"><strong>Step 1 — Personal Details</strong></td>
-    <td align="center"><strong>Step 2 — Skills & Role</strong></td>
-  </tr>
-  <tr>
-    <td><img src="screenshots/registration_step1.png" alt="Registration Step 1" width="100%"></td>
-    <td><img src="screenshots/registration_step2.png" alt="Registration Step 2" width="100%"></td>
-  </tr>
-</table>
-</div>
-
----
-
-### Dashboard
-<div align="center">
-<img src="screenshots/dashboard.png" alt="Dashboard" width="90%">
-</div>
-
----
-
-### AI-Powered Discover Page
-<div align="center">
-<img src="screenshots/discover_matches.png" alt="Discover Matches" width="90%">
-</div>
-
----
-
-### Real-Time Chat
-<div align="center">
-<img src="screenshots/chat_page.png" alt="Chat Page" width="90%">
-</div>
-
----
-
-### Developer Profile
-<div align="center">
-<img src="screenshots/profile_page.png" alt="Profile Page" width="90%">
-</div>
-
----
-
-### Team Meetup Scheduler
-<div align="center">
-<img src="screenshots/meetups_page.png" alt="Meetups Page" width="90%">
-</div>
-
 ---
 
 ## 🛠️ Tech Stack
@@ -355,6 +296,6 @@ MIT License — see [LICENSE](LICENSE) for details.
 
 <br>
 
-**Developer:** Aditya Raj Chourassia
+**Developer:** Team Zero-Gravity
 
 </div>
