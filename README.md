@@ -559,7 +559,7 @@ Follow [Conventional Commits](https://www.conventionalcommits.org/) for commit m
 
 | Name | Role |
 |------|------|
-| **Mohammad Sakib Ahmad** | Project Lead & Full-Stack Developer |
+| **Zero-Gravity** |
 
 ---
 
